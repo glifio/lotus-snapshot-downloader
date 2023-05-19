@@ -1,0 +1,5 @@
+GCP_BILLING_PROJECT="adminscripts-355709"
+GCP_STORAGE_URL="gs://fil-mainnet-archival-snapshots/historical-exports"
+SNAPSHOT_LOCAL_PATH="latest.zst"
+MIN_AGE=1
+GOOGLE_APPLICATION_CREDENTIALS="/credentials.json"
