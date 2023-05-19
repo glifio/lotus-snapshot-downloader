@@ -7,7 +7,7 @@ RUN apt-get update && \
         apt-transport-https \
         ca-certificates \
         curl \
-        python && \
+        python3 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
