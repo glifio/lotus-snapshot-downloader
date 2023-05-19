@@ -1,10 +1,5 @@
 #!/bin/bash
 
-export GCP_BILLING_PROJECT="adminscripts-355709";
-export GCP_STORAGE_URL="gs://fil-mainnet-archival-snapshots/historical-exports"
-export SNAPSHOT_LOCAL_PATH="latest.zst"
-export MIN_AGE=2;
-
 function get_current_timestamp {
     date +"%s";
 }
