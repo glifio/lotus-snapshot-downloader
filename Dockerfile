@@ -6,7 +6,8 @@ RUN apt-get update && \
         gnupg2 \
         apt-transport-https \
         ca-certificates \
-        curl && \
+        curl \
+        python && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
